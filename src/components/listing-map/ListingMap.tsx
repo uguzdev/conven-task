@@ -18,7 +18,7 @@ const mapContainerStyle: React.CSSProperties = {
 const ListingMap: FC = () => {
   const { isLoaded } = useJsApiLoader({
     id: "google-map-script",
-    googleMapsApiKey: "AIzaSyBIVEu64w9zAMZUR28r3arWvhxPVH11dKo",
+    googleMapsApiKey: "",
   });
   return isLoaded ? (
     <GoogleMap
